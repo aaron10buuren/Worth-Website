@@ -1,4 +1,4 @@
-var interval = 10;
+var interval = 50;
 var secondsInDay = (1000 / interval) * (60 * 60 * 24 * 365);
 
 $(document).ready(function() {

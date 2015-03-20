@@ -24,7 +24,7 @@ body{
 	position: fixed;
 }
 
-.gallery {
+.gallery{
 	overflow: auto;
 	margin: auto;
 	text-align: center;
@@ -34,8 +34,9 @@ body{
 .yourworth{
 	padding: 30px 15px;
     margin: 0 auto;
-    display: inline-block; 
     width: 160px;
+    float: center;
+    display: inline-block;
     text-align: center;
 }
 
@@ -71,7 +72,7 @@ h1{
 
 h2{
 	color: #004E56;
-  	font: 700 1em/1 'PT Sans';
+  	font: 700 1.1em/1 'PT Sans';
   	margin: .1em;
   	text-rendering: optimizeLegibility;
   	text-align: center;
@@ -80,7 +81,7 @@ h2{
 
 h3{
 	color: white;
-  	font: 700 2.2em/1.2 'PT Sans';
+  	font: 700 2.2em/1.2 'Inconsolata';
   	margin: auto;
   	text-rendering: optimizeLegibility;
   	text-align: center;
