@@ -24,15 +24,19 @@ body{
 	position: fixed;
 }
 
+.gallery {
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+}
+
 .yourworth{
-	position:fixed;
-    top: 50%;
-    left: 50%;
-    width:26em;
-    height:18em;
-    margin-top: -11em; 
-    margin-left: -13em;
+	padding: 30px 15px;
+    margin: 0 auto;
     display: inline-block; 
+    width: 160px;
+    text-align: center;
 }
 
 .logo{
@@ -66,20 +70,22 @@ h1{
 } 
 
 h2{
-	color: #164F56;
-  	font: 700 1.5em/1 'PT Sans';
+	color: #004E56;
+  	font: 700 1em/1 'PT Sans';
   	margin: .1em;
   	text-rendering: optimizeLegibility;
   	text-align: center;
+  	opacity: 50%;
 } 
 
 h3{
 	color: white;
-  	font: bold 550%/1.2 'PT Sans';
+	font-family: 'Inconsolata', ;
+  	font: 700 2.2em/1.2 'Inconsolata';
   	margin: auto;
   	text-rendering: optimizeLegibility;
   	text-align: center;
-  	margin-top: 2%
+  	margin-top: 2%;
 } 
 
 h4{
