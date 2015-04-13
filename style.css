@@ -1,12 +1,13 @@
-body{
+body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	display: inline-block;
+	background-color: #519D9E;
 }
 
-footer{
+footer {
 	z-index: 100;
 	bottom: 0;
 	width: 100%;
@@ -15,17 +16,18 @@ footer{
 	text-align: center;
 }
 
-.icons{
+.icons {
 	float: left;
 	width: 35px;
 	margin-right: 20px;
+	margin-bottom: 30px;
 }
 
-.icons a{
+.icons a {
 	display: block;
 }
 
-.topSection{
+.topSection {
 	width: 100%;
 	height: 100%;
 	background-color: #519D9E;
@@ -33,14 +35,14 @@ footer{
 	text-align: center;
 }
 
-.gallery{
+.gallery {
 	overflow: auto;
 	margin: auto;
 	text-align: center;
 	position: fixed;
 }
 
-.yourworth{
+.yourworth {
 	padding: 30px 15px;
     margin: 0 auto;
     width: 160px;
@@ -49,24 +51,7 @@ footer{
     text-align: center;
 }
 
-.logo{
-	z-index: 100;
-	position: fixed;
-	width: 60px;
-	top: 10%;
-    left: 50%;
-    margin-left: -30px;
-}
-
-.download{
-	z-index: 96;
-	position: fixed;
-	top: 75%;
-    left: 50%;
-    margin-left: -67px;
-}
-
-.logos , .about{
+.logos , .about , .who {
 	margin-top: 35px;
 	margin-bottom: 35px;
 	overflow: auto;
@@ -74,23 +59,26 @@ footer{
 	vertical-align: top;
 }
 
-.logos{
+.logos {
 	width: 160px;
 	margin-right: 15px;
 }
 
-.about{
-	width: 335px;
+.about {
+	width: 525px;
+	margin-right: 15px;
 }
 
-h1{
-	color: white;
-  	font: bold 1em/1 'PT Sans';
-  	margin: .1em;
-  	text-rendering: optimizeLegibility;
-} 
+.who {
+	width: 220px;
+}
 
-h2{
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
+h1 {
 	color: #004E56;
   	font: 700 1.1em/1 'PT Sans';
   	margin: .1em;
@@ -99,7 +87,7 @@ h2{
   	opacity: 50%;
 } 
 
-h3{
+h2 {
 	color: white;
   	font: 700 2.2em/1.2 'Inconsolata';
   	margin: auto;
@@ -108,16 +96,7 @@ h3{
   	margin-top: 2%;
 } 
 
-h4{
-	color: #164F56;
-  	font: 400 1.5em/1.2 'PT Sans';
-  	margin: .1em;
-  	text-rendering: optimizeLegibility;
-  	text-align: left;
-  	padding-left: 40px;
-}
-
-h5{
+h3 {
 	color: white;
   	font: 700 1.5em/1.2 'PT Sans';
   	text-rendering: optimizeLegibility;
@@ -125,18 +104,40 @@ h5{
   	margin: 0;
 } 
 
-h6{
+h4 {
 	color: #AAB8BB;
   	font: 400 1em/.8 'PT Sans';
   	text-rendering: optimizeLegibility;
   	text-align: left;
-  	 margin: 0;
+  	margin: 0;
 }  
 
-h6 + h6{
+h5 {
+	color: #AAB8BB;
+  	font: 700 1.5em/1.2 'PT Sans';
+  	text-rendering: optimizeLegibility;
+  	text-align: left;
+  	margin-top: 0;
+  	margin-bottom: .2em
+} 
+
+h6 {
+	color: #AAB8BB;
+  	font: 400 1em/1.5 'PT Sans';
+  	text-rendering: optimizeLegibility;
+  	text-align: left;
+  	margin: 0;
+  	text-decoration: none;
+}  
+
+h4 + h4 { 
 	margin-top: 1.2em;
 }
 
-h5 + h6{
+h3 + h4 {
 	margin-top: .6em;
+}
+
+h6 + h6 { 
+	margin-top: 1.2em;
 }
